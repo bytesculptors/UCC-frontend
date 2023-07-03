@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "http://localhost:5001"
+const baseUrl = "https://ucc-backend.onrender.com"
 
 const getAllTodo = (setToDo) => {
     axios.get(baseUrl)
